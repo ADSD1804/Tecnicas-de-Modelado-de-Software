@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Principal UTP</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        header nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .menu {
+            flex-basis: 20%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .menu h2 {
+            color: #007bff;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            margin-bottom: 15px;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 20px;
+            flex-basis: 100%;
+            flex-grow: 1;
+        }
+
+        .welcome h1 {
+            font-size: 36px;
+            color: #333;
+        }
+
+        .welcome p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .events {
+            flex-basis: 75%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .events h2 {
+            color: #007bff;
+        }
+
+        .evento {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .evento img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            clear: both;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            flex-basis: 100%;
+        }
+
+        .footer-text {
+            font-size: 14px;
+        }
+
+        /* Estilos para dispositivos más pequeños (por ejemplo, smartphones) */
+        @media screen and (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header img {
+                max-width: 100%;
+            }
+
+            header nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            header nav ul li {
+                margin: 10px 0;
+            }
+
+            .menu {
+                width: 100%;
+            }
+
+            .events {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Eventos</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+    <img src="https://media2.utp.edu.co/imagenes/Logo-UTP-Azul.png" alt="Logo de la Universidad">
+</header>
+
+<div class="container">
+    <div class="welcome">
+        <h1>Bienvenido al Portal Estudiantil UTP</h1>
+        <p>Encuentra y mantente informado acerca de tus cursos, noticias, eventos y más.</p>
+    </div>
+
+    <div class="menu">
+        <section class="cursos">
+            <h2>Nuestros Cursos Disponibles</h2>
+            <ul>
+                <li><a href="#">Curso 1</a></li>
+                <li><a href="#">Curso 2</a></li>
+                <li><a href="#">Curso 3</a></li>
+                <li><a href="#">Curso 4</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <div class="events">
+        <h2>Próximos Eventos</h2>
+        <div class="evento">
+            <img src="https://concepto.de/wp-content/uploads/2018/08/software-de-sistema-1-e1534948748523.jpg" width="900" height="900" alt="Evento 1">
+            <h3>Evento 1</h3>
+            <p>Información del Evento 1...</p>
+        </div>
+        <div class="evento">
+            <img src="https://fundaciondelcorazon.com/images/stories/iStock-949190756.jpg" width="900" height="900" alt="Evento 2">
+            <h3>Evento 2</h3>
+            <p>Información del Evento 2...</p>
+        </div>
+        <div class="evento">
+            <img src="https://staticnew-prod.topdoctors.cl/files/Image/large/ea5744439aae84f5062ffaf5bb029ee8.jpg" width="800" height="800" alt="Evento 3">
+            <h3>Evento 3</h3>
+            <p>Información del Evento 3...</p>
+        </div>
+        <div class="evento">
+            <img src="https://aprendihoy.com/wp-content/uploads/2021/01/featured-image-chemistry.png" width="900" height="900" alt="Evento 4">
+            <h3>Evento 4</h3>
+            <p>Información del Evento 4...</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <button>
+        <a href="mailto:Universidadutp@utp.edu.co">Comunícate Con Nosotros</a>
+    </button>
+    <p class="footer-text">&copy; 2023 Universidad Tecnológica de Pereira</p>
+</footer>
+
+</body>
+</html>
