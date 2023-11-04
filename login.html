@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="/assets/styles.css">
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -12,38 +15,38 @@
 
             <h2>Login</h2>
         </div>
-    </header> 
 
-    <aside>
-        <div class="menu">
-            <a href="/index.html">Inicio</a>
-            <a href="/tipos.html">Tipos de Hongos</a>
-        </div>
-    </aside>
-    
+        <aside>
+            <div class="menu">
+                <a href="/index.html">Inicio</a>
+                <a href="/tipos.html">Tipos de Hongos</a>
+            </div>
+        </aside>
+    </header>
+
     <div class="login">
         <form action="" method="get">
 
             <label for="usuario">Usuario</label>
-            <input 
-            type="text"
-            name="usuario"
-            id="user"
-            placeholder="Usuario"
-            >
+            <input type="text" name="usuario" id="user" placeholder="Usuario">
 
             <label for="contrasenia">Contraseña</label>
-            <input 
-            type="password"
-            name="password"
-            id="pssw"
-            placeholder="Contraseña">
+            <input type="password" name="password" id="pssw" placeholder="Contraseña">
             <br>
-            <button type="submit" value="Login"><img src="/assets/gifs/send.gif" width="100px"></button>
-            <button type="reset" value="Limpiar"><img src="/assets/gifs/delete.gif" width="100px"></button>
-
+            <section>
+                <button type="submit" value="Login"><img src="/assets/gifs/send.gif" width="100px">Enviar</button>
+                <button type="reset" value="Limpiar"><img src="/assets/gifs/delete.gif" width="100px">Limpiar</button>
+            </section>
         </form>
     </div>
 
+    <footer>
+        <div class="footer">
+            <p><button><a href="mailto:andresdavid.soto@utp.edu.co">Comunícate Con Nosotros</a></button></p>
+            <p class="footer-text">&copy; 2023</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
