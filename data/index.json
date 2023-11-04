@@ -1,0 +1,21 @@
+{
+    "title": "Fungiland",
+    "header": {
+      "title": "Bienvenid@ a Fungiland",
+      "description": "Encuentra todo tipo de información, noticias y mantente informado acerca del mundo de las setas, sus riesgos, beneficios y de qué forma pueden mejorar tu salud."
+    },
+    "section": {
+      "image": "/assets/images/hongos-medicinales.jpg",
+      "content": "Los hongos medicinales han sido venerados a lo largo de la historia por sus propiedades curativas y beneficios para la salud..."
+    },
+    "aside": {
+      "links": [
+        { "text": "Iniciar Sesión", "url": "/login.html" },
+        { "text": "Tipos de Hongos", "url": "/tipos.html" }
+      ]
+    },
+    "footer": {
+      "contact": "andresdavid.soto@utp.edu.co",
+      "year": 2023
+    }
+  }

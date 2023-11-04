@@ -1,106 +1,3 @@
-/* Estilos generales 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-a {
-    text-decoration: none;
-    color: #000;
-}
-
-Estilos para el encabezado común 
-header {
-    background-color: #fff;
-    text-align: center;
-    padding: 20px 0;
-}
-
-.text-welcome {
-    text-align: center;
-}
-
-Estilos para las secciones 
-section {
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-section p {
-    text-align: justify;
-}
-
-/* Estilos para el aside 
-aside {
-    background-color: #868686;
-    padding: 20px;
-}
-
-.menu {
-    display: flex;
-    flex-direction: column;
-}
-
-/* Estilos para el footer 
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-}
-
-.footer a {
-    color: #0045b5;
-    font-size: 20px;
-}
-
-/* Estilos específicos para cada página */
-/* Estilos para la página index.html 
-h1 {
-    color: #008000;
-}
-
-/* Estilos para la página tipos.html 
-h3, h4 {
-    color: #4b0082;
-}
-
-ol {
-    margin-left: 30px;
-}
-
-/* Estilos para la página login.html 
-.login {
-    text-align: center;
-    margin-top: 20px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-button {
-    margin-top: 10px;
-}
-
-button img {
-    display: block;
-}
-
-*/
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
@@ -165,6 +62,11 @@ h1 {
 
 h3, h4 {
     color: #5bc0de;
+}
+
+li{
+    color: #5bc0de;
+    font-size: 20px;
 }
 
 ol {

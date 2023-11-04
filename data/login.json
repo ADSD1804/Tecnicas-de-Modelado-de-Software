@@ -1,0 +1,17 @@
+{
+    "title": "Iniciar Sesión",
+    "header": {
+      "image": "/assets/images/hongos.jpg",
+      "title": "Login"
+    },
+    "aside": {
+      "links": [
+        { "text": "Inicio", "url": "/index.html" },
+        { "text": "Tipos de Hongos", "url": "/tipos.html" }
+      ]
+    },
+    "footer": {
+      "contact": "andresdavid.soto@utp.edu.co",
+      "year": 2023
+    }
+  }

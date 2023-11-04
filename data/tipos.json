@@ -1,0 +1,25 @@
+{
+    "title": "Tipos de Hongos",
+    "header": {
+      "image": "/assets/images/hongos3.jpg"
+    },
+    "section": {
+      "content": "Los hongos o setas comestibles se definen como macrohongos que pueden crecer por encima o por debajo del suelo..."
+    },
+    "types": [
+      {
+        "name": "Ganoderma Lucidum (Reishi)",
+        "description": "La mayoría de estudios con base en el Ganoderma confirman sus propiedades potenciales para..."
+      }
+    ],
+    "aside": {
+      "links": [
+        { "text": "Inicio", "url": "/index.html" },
+        { "text": "Iniciar Sesión", "url": "/login.html" }
+      ]
+    },
+    "footer": {
+      "contact": "andresdavid.soto@utp.edu.co",
+      "year": 2023
+    }
+  }
