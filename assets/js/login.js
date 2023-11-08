@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const email = document.querySelector('#user').value;
         const password = document.querySelector('#pssw').value;
 
-        fetch('../data/users.json')
+        fetch('../data/login.json')
             .then(response => response.json())
             .then(data => {
                 const user = data.users.find(user => user.email === email && user.password === password);
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Redireccionar según el rol del usuario
                     if (user.role === 'admin') {
                         window.location.href = "admin.html";
-                    } else if (user.role === 'user') {
+                    } else if (user.role =! 'admin') {
                         window.location.href = "index.html";
                     }
                 } else {
