@@ -1,25 +1,52 @@
-{
-    "title": "Tipos de Hongos",
-    "header": {
-      "image": "/assets/images/hongos3.jpg"
-    },
-    "section": {
-      "content": "Los hongos o setas comestibles se definen como macrohongos que pueden crecer por encima o por debajo del suelo..."
-    },
-    "types": [
-      {
-        "name": "Ganoderma Lucidum (Reishi)",
-        "description": "La mayoría de estudios con base en el Ganoderma confirman sus propiedades potenciales para..."
-      }
-    ],
-    "aside": {
-      "links": [
-        { "text": "Inicio", "url": "/index.html" },
-        { "text": "Iniciar Sesión", "url": "/login.html" }
-      ]
-    },
-    "footer": {
-      "contact": "andresdavid.soto@utp.edu.co",
-      "year": 2023
-    }
+[
+  {
+    "name": "Amanita muscaria",
+    "type": "Amanitaceae",
+    "poison": "5"
+  },
+  {
+    "name": "Claviceps purpurea",
+    "type": "Clavicipitaceae",
+    "poison": "8"
+  },
+  {
+    "name": "Penicillium chrysogenum",
+    "type": "Trichocomaceae",
+    "poison": "1"
+  },
+  {
+    "name": "Aspergillus flavus",
+    "type": "Trichocomaceae",
+    "poison": "3"
+  },
+  {
+    "name": "Candida albicans",
+    "type": "Debaryomycetaceae",
+    "poison": "1"
+  },
+  {
+    "name": "Saccharomyces cerevisiae",
+    "type": "Saccharomycetaceae",
+    "poison": "1"
+  },
+  {
+    "name": "Fusarium oxysporum",
+    "type": "Nectriaceae",
+    "poison": "2"
+  },
+  {
+    "name": "Trichophyton rubrum",
+    "type": "Arthrodermataceae",
+    "poison": "1"
+  },
+  {
+    "name": "Cryptococcus neoformans",
+    "type": "Tremellaceae",
+    "poison": "2"
+  },
+  {
+    "name": "Histoplasma capsulatum",
+    "type": "Ajellomycetaceae",
+    "poison": "3"
   }
+]
