@@ -1,10 +1,10 @@
-const getTipos = async() => {
+const getProducts = async() => {
 
     const data = await fetch('./data/tipos.json');
-    const mushrm = await data.json();
+    const noticias = await data.json();
     let news = document.querySelector('#news');
     
-    mushrm.forEach( (element) => {
+    noticias.forEach( (element) => {
     
         news.innerHTML += `
         <article class="news">
@@ -16,7 +16,8 @@ const getTipos = async() => {
     
         </article> 
     `;
+    
     })
 }
 
-getTipos();
+getProducts();
