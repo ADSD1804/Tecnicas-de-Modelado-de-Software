@@ -16,7 +16,6 @@ const getTipos = async() => {
     
         </article> 
     `;
-    
     })
 }
 

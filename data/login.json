@@ -5,6 +5,13 @@
       "email": "admin",
       "password": "admin",
       "role": "admin"
+    },
+    
+    {
+      "id": 2,
+      "email": "carlos",
+      "password": "1245",
+      "role": "user"
     }
   ]
 }
