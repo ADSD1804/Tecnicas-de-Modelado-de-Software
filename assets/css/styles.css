@@ -27,7 +27,8 @@ header {
 }
 
 section {
-    padding: 20px;
+    padding: 10px;
+    align-content: center;
 }
 
 section p {
@@ -39,9 +40,12 @@ aside {
     padding: 20px;
 }
 
-.menu {
+.menu{
     display: flex;
-    flex-direction: column;
+}
+
+.menu div{
+    margin-left: 30px;
 }
 
 footer {
@@ -86,15 +90,23 @@ form {
 
 button {
     margin-top: 10px;
+    background-color: rebeccapurple;
+    color: white;
+    font-size: larger;
 }
 
 button img {
     display: block;
 }
 
-.productos{
-    display: flex;
+.producto img {
+    width: 300px;        
 }
+
+.producto{
+    padding: 10px;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 

@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     // Redireccionar según el rol del usuario
                     if (user.role === 'admin') {
                         window.location.href = "admin.html";
-                    } else if (user.role =! 'admin') {
-                        window.location.href = "index.html";
+                    } else if (user.role === 'user') {
+                        window.location.href = "productos.html";
                     }
                 } else {
                     // Mensaje de error si las credenciales no coinciden

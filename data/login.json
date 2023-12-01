@@ -12,6 +12,13 @@
       "email": "carlos",
       "password": "1245",
       "role": "user"
+    },
+
+    {
+      "id": 3,
+      "email": "alonso",
+      "password": "5412",
+      "role": "user"
     }
   ]
 }

@@ -1,23 +1,21 @@
-const getProducts = async() => {
+const getProductos = async() => {
 
     const data = await fetch('./data/tipos.json');
-    const noticias = await data.json();
-    let news = document.querySelector('#news');
+    const productos = await data.json();
+    let producto = document.querySelector('#productos-lista');
     
-    noticias.forEach( (element) => {
+    productos.forEach( (element) => {
     
-        news.innerHTML += `
-        <article class="news">
-    
-            <h3>${ element.title }</h3>
-            <img src="./assets/images/${ element.image }.jpg" alt="">
-            <p>${ element.description }</p>
-            <a href="#">Leer más</a>
-    
+        producto.innerHTML += `
+        <article class="producto">
+
+            <h3>${ element.name }</h3>
+            <img src="./assets/images/${ element.image }.jpg">
+            <p>${ element.descrpt }</p>
         </article> 
     `;
     
     })
 }
 
-getProducts();
+getProductos();

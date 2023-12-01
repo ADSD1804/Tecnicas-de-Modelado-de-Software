@@ -1,52 +1,32 @@
 [
   {
     "name": "Amanita muscaria",
-    "type": "Amanitaceae",
-    "poison": "5"
+    "image": "Amanita_muscaria",
+    "descrpt": "También conocido como matamoscas o falsa oronja, entre otros nombres,1​2​ es un hongo basidiomiceto muy común y popular, considerado venenoso y enteógeno, de distribución cosmopolita del orden Agaricales.3​4​ El epíteto específico muscaria proviene del latín musca, mosca, y hace referencia a la interacción que se produce entre este hongo y los insectos"
   },
   {
     "name": "Claviceps purpurea",
-    "type": "Clavicipitaceae",
-    "poison": "8"
+    "image": "Claviceps_purpurea",
+    "descrpt": "Es un hongo parasítico del género Claviceps que consta de más de cincuenta especies. Todas ellas pueden afectar a una gran variedad de cereales y hierbas, aunque su hospedante más común es el centeno."
   },
   {
     "name": "Penicillium chrysogenum",
-    "type": "Trichocomaceae",
-    "poison": "1"
+    "image": "Penicillium_chrysogenum",
+    "descrpt": "Este hongo, conocido como Penicillium notatum, permitía desarrollar un conjunto de antibióticos de los denominados betalactámicos, que se utilizan para el tratamiento de infecciones que hasta su descubrimiento podían resultar mortales"
   },
   {
-    "name": "Aspergillus flavus",
-    "type": "Trichocomaceae",
-    "poison": "3"
+    "name": "Psilocybe Cunensis",
+    "image": "Psilocybe_cubensis",
+    "descrpt": "Es un hongo estercolero, coprófago y gregario, y sus esporas germinan en el estiércol de rumiantes —vacunos y no vacunos— en lugares soleados, y principalmente durante la época de lluvias, en octubre en Europa y de mayo a octubre en Centroamérica durante la época lluviosa."
   },
   {
-    "name": "Candida albicans",
-    "type": "Debaryomycetaceae",
-    "poison": "1"
+    "name": "Reishi",
+    "image": "Reishi",
+    "descrpt": "Científicamente conocido como Ganoderma lucidum, es una especie de hongo que ha sido utilizado durante siglos en la medicina tradicional china y otras prácticas medicinales asiáticas debido a sus posibles beneficios para la salud"
   },
   {
-    "name": "Saccharomyces cerevisiae",
-    "type": "Saccharomycetaceae",
-    "poison": "1"
-  },
-  {
-    "name": "Fusarium oxysporum",
-    "type": "Nectriaceae",
-    "poison": "2"
-  },
-  {
-    "name": "Trichophyton rubrum",
-    "type": "Arthrodermataceae",
-    "poison": "1"
-  },
-  {
-    "name": "Cryptococcus neoformans",
-    "type": "Tremellaceae",
-    "poison": "2"
-  },
-  {
-    "name": "Histoplasma capsulatum",
-    "type": "Ajellomycetaceae",
-    "poison": "3"
+    "name": "Cordyceps",
+    "image": "cordyceps",
+    "descrpt": "Es un género de hongos que incluye varias especies, siendo el Cordyceps sinensis una de las más conocidas. Este hongo ha sido utilizado en la medicina tradicional china durante siglos y ha captado la atención de la ciencia moderna debido a sus posibles beneficios para la salud."
   }
 ]

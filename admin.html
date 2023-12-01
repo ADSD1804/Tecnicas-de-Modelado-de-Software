@@ -5,48 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/tipos.js"></script>
 </head>
 
 <header>
-
+    <section>
     <div class="header">
         <img src="/assets/images/hongos.jpg" alt="Mejora tu salud" width="500px">
 
-        <h2>Bienvenidos Administradores</h2>
+        <h1>Bienvenidos Administradores</h1>
     </div>
 
     <aside>
-        <div class="menu">
-            <a href="/index.html">Inicio</a>
-            <a href="/tipos.html">Tipos de Hongos</a>
-        </div>
+        <section class="menu">
+            <div>
+                <a href="/index.html">Inicio</a>
+            </div>
+            <div>
+                <a href="/tipos.html">Tipos de Hongos</a>
+            </div>
+            <div>
+                <a href="/login.html">Iniciar Sesion</a>
+            </div>
+        </section>
     </aside>
+</section>
 </header>
 
 <body>
+    <h1>Productos</h1>
     <section class="productos">
-        <div>
-            <h4>Ganoderma Lucidum (Reishi)</h4>
-            <div>
-                <img src="/assets/images/Reishi-Ganoderma.jpg" alt="" width="400px">
-            </div>
-            <div>
-                <h6>$ 10.000 c/g</h6>
-            </div>
-        </div>
-        <div>
-            <h4>Trametes Versicolor</h4>
-            <div>
-                <img src="/assets/images/cola-pavo.jpg" alt="" width="400px">
-            </div>
-            <div>
-                <h6>$ 12.000 c/g</h6>
-            </div>
-        </div>
-        <div>
-            <h4></h4>
-        </div>
-    </section>
+
+        <div id="productos-lista"></div>
+    </section> 
 
 </body>
 </html>
